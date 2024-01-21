@@ -1,11 +1,5 @@
 apiVersion: apps/v1
-
-
-
 kind: Deployment
-
-
-
 metadata:
 
 
@@ -26,7 +20,7 @@ spec:
 
 
 
-  replicas: 3
+  replicas: 1
 
 
 
@@ -70,7 +64,7 @@ spec:
 
 
 
-        image: yusufkabak/docker-image:latest
+        image: edu123/docker-image
 
 
 
@@ -82,28 +76,3 @@ spec:
 
 
 
-        resources:
-
-
-
-          limits:
-
-
-
-            cpu: 1000m
-
-
-
-            memory: 600Mi
-
-
-
-          requests:
-
-
-
-            cpu: 500m
-
-
-
-            memory: 300Mi
