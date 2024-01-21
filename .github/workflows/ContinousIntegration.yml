@@ -41,6 +41,6 @@ jobs:
            git clone https://github.com/yusufkabak/DevOps-Capstone-Project.git
            cd DevOps-Capstone-Project
            helm list -A
-           helm install mavenbuild-dev-new ./webapp
+           helm install mavenbuild-dev-new2 ./webapp
            helm list -A
            kubectl get all
